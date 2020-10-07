@@ -9,7 +9,7 @@ The checkout resource is used to navigate your customers through the transaction
 flow. A checkout captures data sent from the cart along with the item information, line item IDs, any shipping or
 billing information as well as tax and shipping rates. The checkout resource is a verbose endpoint that comes with
 additional helpers eg. [Checkout helpers](#checkout-helpers) and [Services](#services) to fully manage your customer's
-purchasing experience. See [here](/docs/sdk/concepts#checkout-tokens) for more high-level concepts on the Checkout
+purchasing experience. See [here](/docs/04_Concepts.md#checkout-tokens) for more high-level concepts on the Checkout
 resource.
 
 ---
@@ -17,7 +17,7 @@ resource.
 ## Generate token
 
 The `generateToken()` method uses `GET v1/checkouts/{id}` to generate a [checkout
-token](/docs/sdk/concepts#checkout-tokens) which can be used to initiate the process of capturing an order from a cart.
+token](/docs/04_Concepts.md#checkout-tokens) which can be used to initiate the process of capturing an order from a cart.
 `generateTokenFrom()` gets a new checkout token from a specific identifier type. See below for the example request.
 
 Example request using Commerce.js:
